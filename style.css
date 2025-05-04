@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.seeds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.seeds-card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.seeds-card:hover {
+    transform: translateY(-5px);
+}
+
+.seeds-card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.seeds-card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.seeds-card p {
+    font-size: 0.95rem;
+    color: #666;
+}
